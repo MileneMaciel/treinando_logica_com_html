@@ -2,29 +2,30 @@
 
 
 <script>
-	var ano = 2022;
 
-	document.write("Milene tem " + (ano -1992) + "anos em 2022");
-	document.write("<br>");
+	function pulaLinha () {
 
-	document.write("Jorge tem " + (ano -1987) + "anos em 2022");
 		document.write("<br>");
-	    document.write("<br>");
+		document.write("<br>");
+	}
+
+	var ano = 2022;
+	
+
+	document.write("Milene tem " + (ano -1992) + "anos em 2022 ");
+	pulaLinha();
+
+	document.write("Jorge tem " + (ano -1987) + "anos em 2022 ");
+	pulaLinha();	
 
     ano = 2024
-	document.write("Milene terá " + (ano -1992) + "anos em 2024");
-	document.write("<br>");
-	document.write("Jorge terá " + (ano -1987) + "anos em 2024");
-	document.write("<br>");
-	document.write("<br>");
+	document.write("Milene terá " + (ano -1992) + "anos em 2024 ");
+	pulaLinha();
+	document.write("Jorge terá " + (ano -1987) + "anos em 2024 ");
+	
 
 
-	//Média das idades 2022
 
-    var idadeMilene = 30;
-    var idadeJorge = 35;
-	var media = (idadeMilene + idadeJorge)/2;
-	document.write("A média das idades é " + Math.round(media));
 
 //Math.round é usado para arredondar um numero decimal.
 

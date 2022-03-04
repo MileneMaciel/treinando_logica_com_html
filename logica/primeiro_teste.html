@@ -3,25 +3,37 @@
 
 <script>
 
+    
 	function pulaLinha () {
 
 		document.write("<br>");
 		document.write("<br>");
 	}
 
-	var ano = 2022;
+	function  mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+
+  	var ano = 2022;
+	
+  
+     mostra("Milene tem " + (ano -1992) + "anos em 2022 ");
+
+   
+	 mostra("Jorge tem " + (ano -1987) + "anos em 2022 ");
+
 	
 
-	document.write("Milene tem " + (ano -1992) + "anos em 2022 ");
-	pulaLinha();
-
-	document.write("Jorge tem " + (ano -1987) + "anos em 2022 ");
-	pulaLinha();	
-
     ano = 2024
-	document.write("Milene terá " + (ano -1992) + "anos em 2024 ");
-	pulaLinha();
-	document.write("Jorge terá " + (ano -1987) + "anos em 2024 ");
+
+	 mostra("Milene terá " + (ano -1992) + "anos em 2024 ");
+
+
+	 mostra("Jorge terá " + (ano -1987) + "anos em 2024 ");
+
 	
 
 

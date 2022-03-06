@@ -22,15 +22,24 @@ var empates = parseInt(prompt("Entre com o número de empates."));
 
 var pontos = vitorias  * 3 + empates;
 
-if(pontos > 28)
+if(pontos > 28) {
+
     mostra("Seu time está melhor do que no ano passado.");
 
-if(pontos < 28)
-    mostra("Seu time está pior do que no ano passado.");
+}
 
-if(pontos == 28)
-    mostra("Seu time está igual igual ao ano passado.");
-    
+if(pontos < 28) {
+
+    mostra("Seu time está pior do que no ano passado.");
+}
+
+if(pontos == 28) {
+
+    mostra("Seu time está igual ao ano passado.");
+
+}
+
+mostra("FIM");    
 //parseInt converte string para número 
 
 </script>
